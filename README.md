@@ -140,77 +140,77 @@ For such cases and also to let you know what else is possible with this MCP serv
 
 You can always get this list by clicking the hammer icon in your Claude for Desktop application.
 
-ask-object
+`ask-object`
 : Ask questions about an object's content using AI, supporting various file formats and returning contextual answers
 
-copy-object
+`copy-object`
 : Copy an object from one bucket to another while preserving metadata and optionally modifying properties. You can also specify a version ID to copy a specific version of the object.
 
-create-bucket
+`create-bucket`
 : Create a new bucket with specified configurations and optional versioning settings
 
-delete-bucket
+`delete-bucket`
 : Delete a bucket and optionally force removal of all contained objects
 
-delete-object
+`delete-object`
 : Delete a specific object or version from a bucket, with optional soft delete support. You can also specify a version ID to delete a specific version of the object.
 
-download-object
+`download-object`
 : Download an object from a specified bucket to the local filesystem, preserving metadata. You can also specify a version ID to download a specific version of the object.
 
-get-admin-info
+`get-admin-info`
 : Get comprehensive technical information about the AIStor object store, including status, performance metrics, and configuration
 
-get-bucket-lifecycle
+`get-bucket-lifecycle`
 : Get the lifecycle also known as lifecycle rules also known as ILM configuration of a specified bucket
 
-get-bucket-replication
+`get-bucket-replication`
 : Get the replication configuration of a specified bucket
 
-get-bucket-tags
+`get-bucket-tags`
 : Get the tags of a specified bucket
 
-get-bucket-versioning
+`get-bucket-versioning`
 : Get the versioning status and configuration of a specified bucket
 
-get-data-usage-info
+`get-data-usage-info`
 : Get data usage information for the AIStor object storeincluding total data stored, number of objects, and usage by each bucket
 
-get-object-metadata
+`get-object-metadata`
 : Get detailed metadata of an object including content type, size, custom headers, and system properties
 
-get-object-presigned-url
+`get-object-presigned-url`
 : Get a presigned URL for an object in a bucket, with an optional expiration time. Default is 7 days.
 
-get-object-tags
+`get-object-tags`
 : Get all tags associated with a specific object in a bucket
 
-get-object-versions
+`get-object-versions`
 : Get all versions of an object in a bucket
 
-list-allowed-directories
+`list-allowed-directories`
 : List all directories that are permitted for operations with the server
 
-list-bucket-contents
+`list-bucket-contents`
 : List all objects in a specified bucket, including their sizes and last modified dates. You can also specify a prefix to filter the objects and whether to list versions.
 
-list-buckets
+`list-buckets`
 : List all buckets in the AIStor object store with their basic information
 
-list-local-files
+`list-local-files`
 : List all files and directories in a specified local directory path with their attributes
 
-move-object
+`move-object`
 : Move an object between buckets by copying to destination and removing from source. You can also specify a version ID to move a specific version of the object.
 
-set-bucket-tags
+`set-bucket-tags`
 : Set the tags for a specified bucket
 
-set-bucket-versioning
+`set-bucket-versioning`
 : Configure versioning settings for a bucket with administrative privileges
 
-set-object-tags
+`set-object-tags`
 : Set or update tags for an existing object in a bucket, supporting multiple key-value pairs. You can also specify a version ID to set tags for a specific version of the object.
 
-upload-object
+`upload-object`
 : Upload a file from local filesystem to a specified bucket, with support for metadata and tags
