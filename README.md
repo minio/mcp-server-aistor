@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/minio-mcp-server-aistor-badge.png)](https://mseep.ai/app/minio-mcp-server-aistor)
+
 # AIStor MCP server
 
 This is a Model Context Protocol (MCP) server for interacting with AIStor object stores.
